@@ -1,6 +1,6 @@
 import streamlit as st
 import pickle
-from tkinter import Y, Frame 
+from _tkinter import Y, Frame 
 import cv2 as cv
 from tensorflow.keras.preprocessing import image 
 import numpy as np

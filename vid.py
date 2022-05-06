@@ -7,7 +7,7 @@ from tensorflow.keras.models import load_model
 import serial
 import time
 from playsound import playsound
-model=load_model(r'.\resnet_50.hdf5')
+model=load_model(r'.\model\self_trained\resnet_50.hdf5')
 def app():
     global model
     # video_path=r'.\input_video.mp4'
